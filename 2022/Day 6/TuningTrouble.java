@@ -11,7 +11,7 @@ public class TuningTrouble {
 		console.close();
 		int position = 0;
 		int nonRepeatedCharacters = 0;
-		while(nonRepeatedCharacters < 4) {
+		while(nonRepeatedCharacters < 4) {//A value of 14 solves star 2.
 			++position;
 			++nonRepeatedCharacters;
 			char positionChar = datastream.charAt(position);
