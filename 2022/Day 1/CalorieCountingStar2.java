@@ -30,6 +30,7 @@ public class CalorieCountingStar2 {
 				curCalories = 0;
 			}
 		}
+		console.close();
 		int total = 0;
 		for(int i = 0; i < topElves.length; i ++) {
 			total += topElves[i];
